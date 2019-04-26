@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Create a New Puppy</title>
+    <title>Pet Adoption Center</title>
   </head>
   <body>
-    <h1>Create a New Puppy</h1>
-    <form method="POST" action="/">
-      <p>Name:<input type="text" name="name"></p>
-      <p>Breed:<input type="text" name="breed"></p>
-      <p>Age:<input type="text" name="months_old"></p>
-      <p><button type="submit" value="submit">Submit</button></p>
-    </form>
+  <form action="/new" method="post">
+    <h1>Please tell us about your dog</h1>
+    <div>
+      <label for="name">Puppy Name:</label>
+      <input name="name" type="text" id="name">
+    </div>
+    <div>
+      <label for="breed">Puppy Breed:</label>
+      <input name="breed" type="text" id="breed">
+    </div>
+    <div>
+      <label for="age">Puppy Age:</label>
+      <input name="age" type="text" id="age">
+    </div>    
+    <input type="submit" id="submit">
+  </form>
+
   </body>
 </html>
