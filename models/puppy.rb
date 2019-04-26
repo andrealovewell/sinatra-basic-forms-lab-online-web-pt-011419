@@ -7,8 +7,4 @@ class Puppy
     @age = age
   end
 
-  def self.Puppy
-    @Puppy
-  end
-
 end
